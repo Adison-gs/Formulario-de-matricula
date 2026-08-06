@@ -1,30 +1,39 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-:root{
-/* Brand */
---brand-light:#F67841;
---brand-mid:#F3541C;
---brand-dark:#E43A12;
+:root {
+  /* Brand */
+  --brand-light: #F67841;
+  --brand-mid: #F3541C;
+  --brand-dark: #E43A12;
 
-/* Text */
---text-primary:#292524;
---text-secondary:#57534E;
---text-tertiary:#8F8881;  
---text-highlight:#E43A12; 
+  /* Text */
+  --text-primary: #292524;
+  --text-secondary: #57534E;
+  --text-tertiary: #8F8881;
+  --text-highlight: #E43A12;
 
-/* Surface */
---surface-primary:#FFFFFF;
---surface-secondary:#FEE7D6;
---surface-disabled:#E7E5E4;
+  /* Surface */
+  --surface-primary: #FFFFFF;
+  --surface-secondary: #FEE7D6;
+  --surface-disabled: #E7E5E4;
 
-/* Stroke */
---stroke-default:#D6D3D1;
---stroke-highlight:#F3541C;
+  /* Stroke */
+  --stroke-default: #D6D3D1;
+  --stroke-highlight: #F3541C;
 
-/* Semantic */
---semantic-error: #DC2626;
+  /* Semantic */
+  --semantic-error: #DC2626;
+
+  /* font-family */
+  --font-family: "Poppins", sans-serif;
+  --h1: 700 2rem/1.2rem var(--font-family);
+  --h2: 700 1.5rem/1.2rem var(--font-family);
+  --h3: 700 1.25rem/1.2rem var(--font-family);
+  --h4: 700 1rem/1.2rem var(--font-family);
+
+  --frame: "Schoolbell", cursive;
 }
