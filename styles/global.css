@@ -30,14 +30,27 @@
 
   /* font-family */
   --font-family: "Poppins", sans-serif;
-  --h1: 700 2rem/1.2rem var(--font-family);
-  --h2: 700 1.5rem/1.2rem var(--font-family);
-  --h3: 700 1.25rem/1.2rem var(--font-family);
-  --h4: 700 1rem/1.2rem var(--font-family);
+  --text: 400 1rem/1.5 var(--font-family);
+  --text-sm: 400 0.875rem/1.4 var(--font-family);
+  --h1: 700 2rem/1.2 var(--font-family);
+  --h2: 700 1.5rem/1.2 var(--font-family);
+  --h3: 700 1.25rem/1.2 var(--font-family);
+  --h4: 700 1rem/1.2 var(--font-family);
 
   --frame: "Schoolbell", cursive;
 }
 
-body{
-  overflow:hidden;
+body {
+  overflow: hidden;
+  font: var(--text);
+  color: var(--text-secondary);
+}
+
+h1, h2{
+  color: var(--text-primary);
+}
+
+img{
+  max-width:100%;
+  height: auto;
 }

@@ -1,20 +1,33 @@
 #app {
   display: grid;
   grid-template-columns: 51.25% 48.75%;
-
   height: 100vh;
-  overflow: hidden;
+  
+
 }
 
-main{
+main {
   padding: 4rem;
-   overflow:auto;
+  overflow: auto;
 }
 
-.main-container{
+.main-container {
   margin-left: auto;
   max-width: 33rem;
- overflow:auto; 
+  overflow: auto;
+  display: grid;
+  
+}
+
+#back {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 1.5rem;
+}
+
+.main-container h1 {
+  font: 600 1.5rem/1.25 var(--font-family);
+  margin-bottom: 0.5rem;
 }
 
 aside {
@@ -22,7 +35,21 @@ aside {
   background-color: var(--surface-secondary);
 }
 
-.aside-container{
+.aside-container {
   margin-right: auto;
-max-width: 31rem;
+  max-width: 31rem;
+   
+}
+
+#principal h2{
+  font: 600 2.5rem/1.25 var(--font-family);
+  margin-block:0.5rem ;
+}
+
+#principal span{
+  color:var(--text-highlight) ;
+}
+
+.aside-container img{
+  margin-top:2rem ;
 }
