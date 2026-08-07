@@ -37,3 +37,7 @@
 
   --frame: "Schoolbell", cursive;
 }
+
+body{
+  overflow:hidden;
+}
