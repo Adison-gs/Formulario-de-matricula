@@ -3,21 +3,26 @@
   grid-template-columns: 51.25% 48.75%;
   height: 100vh;
   
-
 }
 
 main {
   padding: 4rem;
   overflow: auto;
-}
 
-.main-container {
-  margin-left: auto;
+  & .main-container {
+  /* margin-left: auto;
   max-width: 33rem;
   overflow: auto;
-  display: grid;
+  display: grid; */
+  
+  margin-left: auto;
+  width: 33rem;
+  max-width: 100%;
+
   
 }
+}
+
 
 #back {
   display: flex;
