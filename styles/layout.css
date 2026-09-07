@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 51.25% 48.75%;
   height: 100vh;
-  
+
 }
 
 main {
@@ -10,17 +10,17 @@ main {
   overflow: auto;
 
   & .main-container {
-  /* margin-left: auto;
+    /* margin-left: auto;
   max-width: 33rem;
   overflow: auto;
   display: grid; */
-  
-  margin-left: auto;
-  width: 33rem;
-  max-width: 100%;
 
-  
-}
+    margin-left: auto;
+    width: 33rem;
+    max-width: 100%;
+
+
+  }
 }
 
 
@@ -43,18 +43,43 @@ aside {
 .aside-container {
   margin-right: auto;
   max-width: 31rem;
-   
+
 }
 
-#principal h2{
+#principal h2 {
   font: 600 2.5rem/1.25 var(--font-family);
-  margin-block:0.5rem ;
+  margin-block: 0.5rem;
 }
 
-#principal span{
-  color:var(--text-highlight) ;
+#principal span {
+  color: var(--text-highlight);
 }
 
-.aside-container img{
-  margin-top:2rem ;
+.aside-container img {
+  margin-top: 2rem;
+}
+
+
+
+@media (max-width:375px) {
+
+  #app {
+    display: flex;
+    flex-direction: column-reverse;
+    height: auto;
+  }
+
+  main {
+    padding: 1.5rem;
+  }
+
+  aside {
+    padding: 2rem;
+    text-align: center;
+  }
+
+
+  .none {
+    display: none;
+  }
 }
